@@ -40,7 +40,9 @@ def register_commands(app, db):
 			if database_exists(app.config['SQLALCHEMY_DATABASE_URI']) == False: 
 				create_database(app.config['SQLALCHEMY_DATABASE_URI'])
 				print('Created database !')
-		
+			
+			from .models import Users, LogApi
+			
 			db.drop_all()
 			db.create_all()
 			click.echo('Initialized the SQLite database!')
