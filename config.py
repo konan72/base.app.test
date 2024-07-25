@@ -33,9 +33,7 @@ class DevelopmentConfig(object):
 	SQLALCHEMY_ECHO 				= False
 		
 	LOGS  							= os.path.join(BASEDIR,'logs')
-	DATA  							= os.path.join(BASEDIR,'data')
-	# email 	
-	EMAIL_ADDRESS  					= "konan72@gmail.com"
+	
 	
 
 	
@@ -71,9 +69,7 @@ class ProductionConfig(object):
 	SQLALCHEMY_ECHO 				= False
 
 	LOGS  							= os.path.join(BASEDIR,'logs')
-	DATA  							= os.path.join(BASEDIR,'data')
-	# email 	
-	EMAIL_ADDRESS  					= "konan72@gmail.com"
+	
 	
 
 
