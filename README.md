@@ -1,2 +1,2 @@
 # base.app
-test flask application with angular
+test flask application for angular
